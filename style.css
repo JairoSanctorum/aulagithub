@@ -1,0 +1,23 @@
+@keyframes paragrafo {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: thistle;}
+    75% {background-color: yellowgreen;}
+    100% {background-color: red;}
+}
+
+
+body {
+    margin: 0;
+    background-color: rgba(241, 245, 10, 0.534);
+    color: grey;
+    font-family: 'Lobster', 'Pacifico';
+}
+h1 {
+    animation-name: paragrafo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+a {
+    text-decoration: none;
+}

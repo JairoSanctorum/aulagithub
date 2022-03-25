@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+body {
+    margin: 50px;
+}
+th, td {
+    padding: 10px;
+    
+}
+tbody td:nth-child(even) {
+    background-color: #EEE;
+}
